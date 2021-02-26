@@ -1,3 +1,20 @@
+::-webkit-scrollbar {
+ width: 13px;
+ height: 13px;
+}
+::-webkit-scrollbar-thumb {
+ background: linear-gradient(13deg, #e8b14b 14%,#ff5c61 64%);
+ border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+ background: linear-gradient(13deg, #b98118 14%,#ff333a 64%);
+}
+::-webkit-scrollbar-track{
+ background: #ffffff;
+ border-radius: 10px;
+ box-shadow: inset 7px 10px 12px #f0f0f0;
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 721px;
 }
